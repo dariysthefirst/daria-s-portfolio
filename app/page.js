@@ -7,7 +7,7 @@ export default function Home() {
     <>
     <div className={styles.container}>
     <h1 className={styles.h1}>portfolio.</h1>
-    <Image src={pic} className={styles.pic}/>
+    <Image alt="cat" src={pic} className={styles.pic}/>
     </div>
     </>
 

@@ -10,9 +10,9 @@ export default function Contacts() {
     <div className={styles.container}>
     <h1 className={styles.text}>You can find me and my projects here:</h1>
     <div className={styles.icons}>
-      <Image href = '#' src={behance} className={styles.object}/>
-      <Image href = '#' src={inst} className={styles.object}/>
-      <Image href = '#' src={tg} className={styles.object}/>
+      <Image alt="icon" href = '#' src={behance} className={styles.object}/>
+      <Image alt="icon" href = '#' src={inst} className={styles.object}/>
+      <Image alt="icon" href = '#' src={tg} className={styles.object}/>
     </div>
     </div>
     </>

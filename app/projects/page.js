@@ -14,15 +14,15 @@ export default function Projects() {
       <div className={styles.content}>
     <div className={styles.projects}>
       <h3 className={styles.projname}>Website for bubble tea shop</h3>
-      <Image src={shop} className={styles.projpic}/>
+      <Image alt="bubble tea shop" src={shop} className={styles.projpic}/>
     </div>
     <div className={styles.projects}>
       <h3 className={styles.projname}>App for smart blinds</h3>
-      <Image src={blinds} className={styles.projpicblinds}/>
+      <Image alt="app for blinds" src={blinds} className={styles.projpicblinds}/>
     </div>
     <div className={styles.projects}>
       <h3 className={styles.projname}>App for watching series</h3>
-      <Image src={chillflix} className={styles.projpicchill}/>
+      <Image alt="app for watching series" src={chillflix} className={styles.projpicchill}/>
     </div>
     </div>
     </div>

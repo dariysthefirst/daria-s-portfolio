@@ -20,27 +20,27 @@ export default function RootLayout({ children }) {
  <body className={inter.className}>
  <main>
  <navbar className={styles.navbar}>
-  <Image src={logo} className={styles.logo} href='/'/>
+  <Image alt="logo" src={logo} className={styles.logo} href='/'/>
   <div className={styles.navbuttons}>
-    <Image className={styles.sun} src = {sun}/>
+    <Image alt="sun icon" className={styles.sun} src = {sun}/>
  <Link className={styles.links} href='/'>home</Link>
  </div>
   <div className={styles.navbuttons}>
-    <Image className={styles.sun} src = {sun}/>
+    <Image alt="sun icon" className={styles.sun} src = {sun}/>
  <Link className={styles.links} href='/about'>about</Link>
  </div>
  <div className={styles.navbuttons}>
-    <Image className={styles.sun} src = {sun}/>
+    <Image alt="sun icon" className={styles.sun} src = {sun}/>
  <Link className={styles.links} href='/projects'>projects</Link>
  </div>
  <div className={styles.navbuttons}>
-    <Image className={styles.sun} src = {sun}/>
+    <Image alt="sun icon" className={styles.sun} src = {sun}/>
  <Link className={styles.links} href='/contacts'>contacts</Link>
  </div>
  
  </navbar>
  <div className={styles.content}>
- <Image src={circle} className={styles.background}/>
+ <Image alt="circle" src={circle} className={styles.background}/>
  {children}
  </div>
  </main>
