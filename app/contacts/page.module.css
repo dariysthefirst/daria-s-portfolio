@@ -1,0 +1,13 @@
+.text{
+  font-family: 'Montserrat', monospace;
+  color: #2d2d2d;
+  margin: -400px 270px 0;
+}
+.icons{
+  display: flex;
+  flex-direction: row;
+  margin: 160px 100px 0;
+}
+.object{
+  margin: 0 100px 0;
+}

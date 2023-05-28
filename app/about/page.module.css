@@ -1,0 +1,27 @@
+.container{
+  display: flex;
+}
+.facepic{
+  width: 400px;
+  height: 400px;
+  margin: -250px 900px 0;
+}
+.text{
+  width: 600px;
+  font-size: 25px;
+  margin: -400px 20px 0;
+}
+.btn{
+  width: 120px;
+  height: 40px;
+  border: none;
+  border-radius: 20px;
+  background-color: #FF8811;
+  color: #2d2d2d;
+  font-family: 'Montserrat', monospace;
+  margin: 300px 200px 0;
+  position: absolute;
+}
+.btn:hover{
+  background-color: #da750f;
+}
