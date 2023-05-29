@@ -10,41 +10,41 @@ import sun from './images/sun.png'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-title: 'portfolio',
-description: '',
+   title: 'portfolio',
+   description: '',
 }
 
 export default function RootLayout({ children }) {
- return (
- <html lang="en">
- <body className={inter.className}>
- <main>
- <navbar className={styles.navbar}>
-  <Image alt="logo" src={logo} className={styles.logo} href='/'/>
-  <div className={styles.navbuttons}>
-    <Image alt="sun icon" className={styles.sun} src = {sun}/>
- <Link className={styles.links} href='/'>home</Link>
- </div>
-  <div className={styles.navbuttons}>
-    <Image alt="sun icon" className={styles.sun} src = {sun}/>
- <Link className={styles.links} href='/about'>about</Link>
- </div>
- <div className={styles.navbuttons}>
-    <Image alt="sun icon" className={styles.sun} src = {sun}/>
- <Link className={styles.links} href='/projects'>projects</Link>
- </div>
- <div className={styles.navbuttons}>
-    <Image alt="sun icon" className={styles.sun} src = {sun}/>
- <Link className={styles.links} href='/contacts'>contacts</Link>
- </div>
- 
- </navbar>
- <div className={styles.content}>
- <Image alt="circle" src={circle} className={styles.background}/>
- {children}
- </div>
- </main>
-</body>
-</html>
- )
+   return (
+      <html lang="en">
+         <body className={inter.className}>
+            <main>
+               <navbar className={styles.navbar}>
+                  <Image alt="logo" src={logo} className={styles.logo} href='/' />
+                  <div className={styles.navbuttons}>
+                     <Image alt="sun icon" className={styles.sun} src={sun} />
+                     <Link className={styles.links} href='/'>home</Link>
+                  </div>
+                  <div className={styles.navbuttons}>
+                     <Image alt="sun icon" className={styles.sun} src={sun} />
+                     <Link className={styles.links} href='/about'>about</Link>
+                  </div>
+                  <div className={styles.navbuttons}>
+                     <Image alt="sun icon" className={styles.sun} src={sun} />
+                     <Link className={styles.links} href='/projects'>projects</Link>
+                  </div>
+                  <div className={styles.navbuttons}>
+                     <Image alt="sun icon" className={styles.sun} src={sun} />
+                     <Link className={styles.links} href='/contacts'>contacts</Link>
+                  </div>
+
+               </navbar>
+               <div className={styles.content}>
+                  <Image alt="circle" src={circle} className={styles.background} />
+                  {children}
+               </div>
+            </main>
+         </body>
+      </html>
+   )
 }

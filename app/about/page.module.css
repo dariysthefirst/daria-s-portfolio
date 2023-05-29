@@ -1,17 +1,20 @@
-.container{
+.container {
   display: flex;
 }
-.facepic{
+
+.facepic {
   width: 400px;
   height: 400px;
-  margin: -250px 900px 0;
+  margin: -250px 100px 0;
 }
-.text{
+
+.text {
   width: 600px;
   font-size: 25px;
   margin: -400px 20px 0;
 }
-.btn{
+
+.btn {
   width: 120px;
   height: 40px;
   border: none;
@@ -22,6 +25,7 @@
   margin: 300px 200px 0;
   position: absolute;
 }
-.btn:hover{
+
+.btn:hover {
   background-color: #da750f;
 }

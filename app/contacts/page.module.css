@@ -1,13 +1,15 @@
-.text{
+.text {
   font-family: 'Montserrat', monospace;
   color: #2d2d2d;
   margin: -400px 270px 0;
 }
-.icons{
+
+.icons {
   display: flex;
   flex-direction: row;
   margin: 160px 100px 0;
 }
-.object{
+
+.object {
   margin: 0 100px 0;
 }

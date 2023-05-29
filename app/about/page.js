@@ -8,9 +8,9 @@ import facepic from './images/facepic.png'
 export default function About() {
   return (
     <>
-    <Link className={styles.btn} href='/projects'>see projects</Link>
-    <div className={styles.container}>
-    <p className={styles.text}>
+      <Link className={styles.btn} href='/projects'>see projects</Link>
+      <div className={styles.container}>
+        <p className={styles.text}>
           Hi! I`m Dariya Yuzefchuk, a novice UI/UX designer. I&apos;m a freshman
           student at State university of information and communication
           technologies. I started designing recently, but I already know quite a
@@ -18,8 +18,8 @@ export default function About() {
           composition, I have a good understanding of math and I speak b2
           English.
         </p>
-    <Image alt="facepic" src={facepic} className={styles.facepic}/>
-    </div>
+        <Image alt="facepic" src={facepic} className={styles.facepic} />
+      </div>
     </>
 
   )
