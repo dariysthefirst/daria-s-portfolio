@@ -8,8 +8,8 @@ import facepic from './images/facepic.png'
 export default function About() {
   return (
     <>
-    <div className={styles.button}>
-      <Link className={styles.btn} href='/projects'>see projects</Link>
+      <div className={styles.button}>
+        <Link className={styles.btn} href='/projects'>see projects</Link>
       </div>
       <div className={styles.container}>
         <p className={styles.text}>

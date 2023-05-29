@@ -5,7 +5,7 @@
 .facepic {
   width: 400px;
   height: 400px;
-  margin: -380px 280px 0;
+  margin: -350px 280px 0;
 }
 
 .text {
@@ -24,7 +24,7 @@
   font-family: 'Montserrat', monospace;
   margin: 300px 200px 0;
   position: absolute;
-  padding: 5px;
+  padding: 8px 6px;
 }
 
 .button:hover {
